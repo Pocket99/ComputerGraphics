@@ -1,0 +1,30 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(513,5): warning MSB8028: 中间目录(Debug\)包含从另一个项目(COMP371A1.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
+  main.cpp
+C:\Users\leoqi\source\repos\COMP371A2 - 最终版\COMP371A1\main.cpp(695,25): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+C:\Users\leoqi\source\repos\COMP371A2 - 最终版\COMP371A1\main.cpp(707,18): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+C:\Users\leoqi\source\repos\COMP371A2 - 最终版\COMP371A1\main.cpp(708,36): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\leoqi\source\repos\COMP371A2 - 最终版\COMP371A1\main.cpp(1044,62): warning C4244: “-=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\leoqi\source\repos\COMP371A2 - 最终版\COMP371A1\main.cpp(1045,60): warning C4244: “-=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\leoqi\source\repos\COMP371A2 - 最终版\COMP371A1\main.cpp(1079,25): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+C:\Users\leoqi\source\repos\COMP371A2 - 最终版\COMP371A1\main.cpp(1081,25): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+LINK : warning LNK4098: 默认库“MSVCRT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+LINK : warning LNK4098: 默认库“LIBCMT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+LINK : warning LNK4217: 符号“___glewAttachShader”(在“ glew32s.lib(glew.obj)”中定义)已由“Shader.obj”(函数“__catch$??0Shader@@QAE@PBD0@Z$0”中)导入
+LINK : warning LNK4217: 符号“___glewCompileShader”(在“ glew32s.lib(glew.obj)”中定义)已由“Shader.obj”(函数“__catch$??0Shader@@QAE@PBD0@Z$0”中)导入
+LINK : warning LNK4217: 符号“___glewCreateProgram”(在“ glew32s.lib(glew.obj)”中定义)已由“Shader.obj”(函数“__catch$??0Shader@@QAE@PBD0@Z$0”中)导入
+LINK : warning LNK4217: 符号“___glewCreateShader”(在“ glew32s.lib(glew.obj)”中定义)已由“Shader.obj”(函数“__catch$??0Shader@@QAE@PBD0@Z$0”中)导入
+LINK : warning LNK4217: 符号“___glewDeleteShader”(在“ glew32s.lib(glew.obj)”中定义)已由“Shader.obj”(函数“__catch$??0Shader@@QAE@PBD0@Z$0”中)导入
+LINK : warning LNK4217: 符号“___glewGetProgramInfoLog”(在“ glew32s.lib(glew.obj)”中定义)已由“Shader.obj”(函数“"private: void __thiscall Shader::checkCompileErrors(unsigned int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?checkCompileErrors@Shader@@AAEXIV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)”中)导入
+LINK : warning LNK4217: 符号“___glewGetProgramiv”(在“ glew32s.lib(glew.obj)”中定义)已由“Shader.obj”(函数“"private: void __thiscall Shader::checkCompileErrors(unsigned int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?checkCompileErrors@Shader@@AAEXIV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)”中)导入
+LINK : warning LNK4217: 符号“___glewGetShaderInfoLog”(在“ glew32s.lib(glew.obj)”中定义)已由“Shader.obj”(函数“"private: void __thiscall Shader::checkCompileErrors(unsigned int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?checkCompileErrors@Shader@@AAEXIV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)”中)导入
+LINK : warning LNK4217: 符号“___glewGetShaderiv”(在“ glew32s.lib(glew.obj)”中定义)已由“Shader.obj”(函数“"private: void __thiscall Shader::checkCompileErrors(unsigned int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?checkCompileErrors@Shader@@AAEXIV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)”中)导入
+LINK : warning LNK4217: 符号“___glewGetUniformLocation”(在“ glew32s.lib(glew.obj)”中定义)已由“Shader.obj”(函数“"public: void __thiscall Shader::setBool(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,bool)const " (?setBool@Shader@@QBEXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@_N@Z)”中)导入
+LINK : warning LNK4217: 符号“___glewLinkProgram”(在“ glew32s.lib(glew.obj)”中定义)已由“Shader.obj”(函数“__catch$??0Shader@@QAE@PBD0@Z$0”中)导入
+LINK : warning LNK4217: 符号“___glewShaderSource”(在“ glew32s.lib(glew.obj)”中定义)已由“Shader.obj”(函数“__catch$??0Shader@@QAE@PBD0@Z$0”中)导入
+LINK : warning LNK4217: 符号“___glewUniform1f”(在“ glew32s.lib(glew.obj)”中定义)已由“Shader.obj”(函数“"public: void __thiscall Shader::setFloat(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,float)const " (?setFloat@Shader@@QBEXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@M@Z)”中)导入
+LINK : warning LNK4217: 符号“___glewUniform1i”(在“ glew32s.lib(glew.obj)”中定义)已由“Shader.obj”(函数“"public: void __thiscall Shader::setBool(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,bool)const " (?setBool@Shader@@QBEXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@_N@Z)”中)导入
+LINK : warning LNK4217: 符号“___glewUniform3fv”(在“ glew32s.lib(glew.obj)”中定义)已由“Shader.obj”(函数“"public: void __thiscall Shader::setVec3(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,struct glm::tvec3<float,0>)const " (?setVec3@Shader@@QBEXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@U?$tvec3@M$0A@@glm@@@Z)”中)导入
+LINK : warning LNK4217: 符号“___glewUniformMatrix4fv”(在“ glew32s.lib(glew.obj)”中定义)已由“Shader.obj”(函数“"public: void __thiscall Shader::setMat4(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,struct glm::tmat4x4<float,0>)const " (?setMat4@Shader@@QBEXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@U?$tmat4x4@M$0A@@glm@@@Z)”中)导入
+LINK : warning LNK4217: 符号“___glewUseProgram”(在“ glew32s.lib(glew.obj)”中定义)已由“Shader.obj”(函数“"public: void __thiscall Shader::setBool(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,bool)const " (?setBool@Shader@@QBEXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@_N@Z)”中)导入
+glew32s.lib(glew.obj) : warning LNK4099: 未找到 PDB“”(使用“glew32s.lib(glew.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+  COMP371A1.vcxproj -> C:\Users\leoqi\source\repos\COMP371A2 - 最终版\Debug\COMP371A2.exe
